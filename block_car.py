@@ -31,12 +31,8 @@ motor2_2 = GPIO.PWM(25,100)
 motor2_2.start(0)
 motor2_2.ChangeDutyCycle(0)
  
- # Produces LED lights to shine as an indication of program running
-#GPIO.setup(18, GPIO.OUT)
-#GPIO.output(18, False)
 
-#GPIO.setup(23, GPIO.OUT)
-#GPIO.output(23, False)
+
 
 # Reads key from keyboard as of the current moment. 
 def getch():
@@ -49,11 +45,7 @@ def getch():
         termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
     return ch
 
-# This section of code defines the methods used to determine
-# whether a motor needs to spin forward or backwards. The
-# different directions are acheived by setting one of the
-# GPIO pins to true and the other to false. If the status of
-# both pins match, the motor will not turn.
+# Code definitions which define 'states' of motor
 def motor1_forward():
     GPIO.output(mot1_int1_gp18, False)
     GPIO.output(mot1_int1_gp23, True)
@@ -104,10 +96,7 @@ def motor2_half():
     motor2_2.ChangeDutyCycle(0)
 
 
-# This method will toggle the lights on/off when the user
-# presses a particular key. It will then change the status
-# of the lights so it will know whether to turn them on or
-# off when it is next called.
+# For LEDs if I have them to toggle on and off. 
 def toggleLights():
  
     global lightStatus
@@ -121,14 +110,7 @@ def toggleLights():
         GPIO.output(23, False)
         lightStatus = False
  
-# This method will toggle the direction of the steering
-# motor. The method will determine whether the user wants
-# to turn left or right depending on the key they press and
-# then make the appropriate adjustment. It works as a toggle
-# because the program cannot read multiple pressed keys at
-# the same time. The possible positions of the wheels are
-# "right", "centre" and "left". It will then update the
-# status of the wheel to access next time it is called.
+# This will take in direction from keyboard press and orient car direction
 def toggleSteering(directGPIOn):
  
     global wheelStatus
@@ -201,6 +183,10 @@ while True:
     if(char == "x"):
         cprint("Program Ended", 'red')
         break
+
+    #else:
+	#motor2_stop()
+    #motor1_stop()
                
     # The keyboard character variable will be set to blank, ready
     # to save the next key that is pressed
