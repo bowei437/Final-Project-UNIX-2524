@@ -1,6 +1,6 @@
 # UNIX2524 Introduction to UNIX
  
-	## Project 3: MacFearCar300 In Python and Git
+#### Project 3: MacFearCar300 In Python and Git
 By: Bowei Zhao
 Date: December 9, 2015
 Class: ECE 2524 Introduction to UNIX Fall 2015
@@ -8,6 +8,19 @@ Class: ECE 2524 Introduction to UNIX Fall 2015
 ##INTRODUCTION
 My Project for Unix will be of a Raspberry Pi Vehicle Robot running Python code. The idea in general is to create
 a moving robotic vehicle from a completely self built and designed chassis to move at my will. 
+
+##HOW TO
+To run my project. You need a Raspberry Pi that is preferabbly the first generation Model B or past with 40pin GPIO.
+You will also need the Raspberry Pi GPIO Python module that should come pre-installed on full images of Rasbian.
+Root access is required to access GPIO on Raspberry Pi. Lastly, you will need Python 3.
+No additional 3rd party modules are required to run this project if you have a Raspberry Pi with the GPIO library.
+
+A sample command to running this project in the correct file directory would be:
+sudo python block_car.py
+
+Mine runs correctly without specifying Python version but yours may not. 
+
+Be sure to quit the program by pressing X to successfully cleanup the GPIO pins so they don't remain active.
 
 ##SOFTWARE 
 The MacFearCAR3000 or (MFC) for short will be developed on Raspbian Jessie which is a Linux distro based on Desbian and runs on ARM processors that the Raspberry Pi uses. This distro is the latest as of November 2015.
@@ -35,16 +48,5 @@ SFTP is the secondary form of wireless network file/folder sharing. WinSCP on Wi
 
 6: Two 5V, 1A rechargeable batteries to power Raspberry Pi and Motors
 
-##HOW TO
-To run my project. You need a Raspberry Pi that is preferabbly the first generation Model B or past with 40pin GPIO.
-You will also need the Raspberry Pi GPIO Python module that should come pre-installed on full images of Rasbian.
-Root access is required to access GPIO on Raspberry Pi. Lastly, you will need Python 3.
-No additional 3rd party modules are required to run this project if you have a Raspberry Pi with the GPIO library.
-
-A sample command to running this project in the correct file directory would be:
-sudo python block_car.py
-
-Mine runs correctly without specifying Python version but yours may not. 
-
-Be sure to quit the program by pressing X to successfully cleanup the GPIO pins so they don't remain active. 
+ 
   
