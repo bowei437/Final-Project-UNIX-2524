@@ -1,0 +1,71 @@
+commit 068ed60fd2d531a39351307f735e9c704d7d2ffa
+Author: Bowei Zhao <bowei@vt.edu>
+Date:   Thu Dec 10 00:54:11 2015 +0000
+
+    Learnt some GitHub Markdown Formatting and updated my README with Video Link
+
+commit 643522a0d2f0a5e5fb7e688eefa61b845fefb8a7
+Author: Bowei Zhao <bowei@vt.edu>
+Date:   Thu Dec 10 00:47:42 2015 +0000
+
+    Updated README for markdown changes. Taking a lot of commits and time as I am using VIM and Terminal to do all this
+
+commit 0a09549db08462767b9df344132418e7278832f0
+Author: Bowei Zhao <bowei@vt.edu>
+Date:   Thu Dec 10 00:45:05 2015 +0000
+
+    Finallized the current README for turn in status. Added more detail
+
+commit 429652d3daae109bd686ee61f2767b8b5b97a5ea
+Author: Bowei Zhao <bowei@vt.edu>
+Date:   Thu Dec 10 00:34:13 2015 +0000
+
+    Modifies some motors and performs changes on comments and general logic as well
+
+commit f9132d3002ae0cbbfd1673c5157e57d2210acae0
+Author: Bowei Zhao <bowei@vt.edu>
+Date:   Thu Dec 10 00:05:06 2015 +0000
+
+    Updated Block_car python file with a few changes in comments.
+
+commit 3dd0ab4e1d91ec4a9d94b09df87cd9a6aca2194d
+Author: Bowei Zhao <bowei@vt.edu>
+Date:   Wed Dec 9 03:09:07 2015 +0000
+
+    Updated ReadMe with Real Project information using Vim with Git.
+
+commit 52c0530706a22614562a3117503f4981e03d96ef
+Author: bowei437 <bowei@vt.edu>
+Date:   Tue Dec 8 21:52:07 2015 -0500
+
+    Deleting Usless file
+
+commit 42fc068372e9c3ab8bfd3a54e86a72ef31be9eed
+Author: Bowei Zhao <bowei@vt.edu>
+Date:   Wed Dec 9 02:49:28 2015 +0000
+
+    Adds .swp file
+
+commit da6313a3b6a2ac707c7f23e54f329173f24c2117
+Author: Bowei Zhao <bowei@vt.edu>
+Date:   Wed Dec 9 02:20:00 2015 +0000
+
+    Updated Reverse/Forward transmission for Car and added PWM in right order
+
+commit 3014e0bc806cf182f230deca40cfd229488874c8
+Author: Bowei Zhao <bowei@vt.edu>
+Date:   Thu Dec 3 01:06:27 2015 +0000
+
+    adds new python script
+
+commit e3ef92c48460e06fb144dc74ff6bbd9e6f09afeb
+Author: Bowei Zhao <bowei@vt.edu>
+Date:   Thu Dec 3 00:55:04 2015 +0000
+
+    Just a Test
+
+commit 6316556bd0097225cbf82ab0cfff5a074b1cb5f0
+Author: bowei437 <bowei@vt.edu>
+Date:   Wed Dec 2 19:39:14 2015 -0500
+
+    Initial commit
