@@ -22,6 +22,10 @@ Mine runs correctly without specifying Python version but yours may not.
 
 Be sure to quit the program by pressing X to successfully cleanup the GPIO pins so they don't remain active.
 
+##VIDEO
+My project requires a Raspberry Pi and many additions to run. So to submit proof, I included a video uploaded before the deadline showing operation of the car.
+
+[Video of MacFearCar3000 in Action](https://www.youtube.com/watch?v=b0WSR0E3D0s) 
 ##SOFTWARE 
 The MacFearCAR3000 or (MFC) for short will be developed on Raspbian Jessie which is a Linux distro based on Desbian and runs on ARM processors that the Raspberry Pi uses. This distro is the latest as of November 2015.
 
